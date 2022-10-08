@@ -1,3 +1,4 @@
+// import necessary files
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
@@ -5,8 +6,9 @@ import Footer from "../layout/footer";
 import Pagination from "../pagination/pagination";
 import Clock from "../Clock";
 import useLocalStorage from "use-local-storage";
-
+// create home component
 const Home = () => {
+  // create usestate
   const [users, setUser] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [theme, setTheme] = useLocalStorage("theme" ? "dark" : "light");
@@ -14,7 +16,7 @@ const Home = () => {
     const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);
   };
-
+  // fetch data
   useEffect(() => {
     loadUsers();
   }, []);
@@ -23,28 +25,18 @@ const Home = () => {
     const result = await axios.get("http://localhost:3000/users");
     setUser(result.data.reverse());
   };
-
+  // function for deleting users
   const deleteUser = async (id) => {
     await axios.delete(`http://localhost:3000/users/${id}`);
     loadUsers();
   };
 
   return (
+    // return jsx
     <div className="container-main">
       <div className="py-4">
         <div className="homie">
-          <h1
-            style={{
-              fontFamily: '"montez","cursive"',
-              textAlign: "center",
-              color: "Black",
-              fontSize: "50px",
-              textShadow: "text-shadow: 2px 2px #ff0000;",
-              zIndex: -1,
-            }}
-          >
-            Home Page
-          </h1>
+          <h1 className="home-page">Home Page</h1>
           <Link
             className="btn btn-outline-light"
             to="/users/add"
@@ -57,10 +49,12 @@ const Home = () => {
         <table class="table border shadow">
           <thead
             class="thead"
+            // overrride global style created
             style={{
               background: "radial-gradient(circle, #5c0067 0%, #00d4ff 100%)",
             }}
           >
+            {/* create table and display content from json */}
             <tr>
               <th scope="col">#</th>
               <th scope="col">Name</th>

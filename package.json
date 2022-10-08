@@ -1,6 +1,7 @@
 {
   "name": "users",
   "version": "0.1.0",
+  "homepage": "https://drew1991.github.io/final-project-phase-2 ",
   "private": true,
   "dependencies": {
     "@emotion/styled": "^11.10.4",
@@ -26,6 +27,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "json-server": "json-server --watch db.json --port 3003",
     "start:dev": "concurrently \"npm start\" \"npm run json-server\"",
     "build": "react-scripts build",
@@ -46,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

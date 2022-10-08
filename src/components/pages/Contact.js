@@ -1,10 +1,10 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import Footer from "../layout/footer";
-
+// create contact component
 const Contact = () => {
   const history = useHistory();
-
+  // return jsx for contact
   return (
     <div className="container-contact">
       <div className="my-contact">
@@ -58,6 +58,7 @@ const Contact = () => {
       </div>
 
       <div className="my-contact">
+        {/* routing back to previous page */}
         <button
           type="button"
           className="back back-primary btn-arrow-left"

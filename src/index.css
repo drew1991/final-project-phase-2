@@ -171,3 +171,13 @@ code {
   background-image: url("2.jpg");
 }
 
+.home-page{
+ 
+        font-family: "montez","cursive";
+          text-align: center;
+          color: Black;
+          font-size: 50px;
+          text-shadow: "text-shadow: 2px 2px #ff0000;";
+          z-index:  -1;
+   
+}
