@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 const AddUser = () => {
-  const navigate = useNavigate();
+  let history = useHistory();
   const [user, setUser] = useState({
     name: "",
     username: "",
@@ -20,7 +20,7 @@ const AddUser = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     await axios.post("http://localhost:3000/users", user);
-    this.context.history.push("/path");
+    history.push("/");
   };
   return (
     <div className="container">
@@ -32,7 +32,7 @@ const AddUser = () => {
           borderRadius: "25px",
           marginLeft: "75%",
         }}
-        onClick={() => navigate("/home")}
+        onClick={() => history.goBack()}
       >
         Go Back
       </button>

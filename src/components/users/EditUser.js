@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useHistory, useParams } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 
 const EditUser = () => {
-  const navigate = useNavigate();
+  let history = useHistory();
   const { id } = useParams();
   const [user, setUser] = useState({
     name: "",
@@ -26,7 +25,7 @@ const EditUser = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     await axios.put(`http://localhost:3000/users/${id}`, user);
-    this.context.history.push("/path");
+    history.push("/");
   };
 
   const loadUser = async () => {
