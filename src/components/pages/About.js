@@ -15,7 +15,7 @@ const About = () => {
           marginLeft: "80%",
           marginTop: "5px",
         }}
-        onClick={() => }
+        onClick={() => navigate("/home")}
       >
         Go Back
       </button>
