@@ -52,6 +52,7 @@ const Home = () => {
             // overrride global style created
             style={{
               background: "radial-gradient(circle, #5c0067 0%, #00d4ff 100%)",
+              borderTopRadius: "25px",
             }}
           >
             {/* create table and display content from json */}

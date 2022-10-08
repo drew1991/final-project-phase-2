@@ -1,10 +1,12 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import Footer from "../layout/footer";
-
+// create component
 const About = () => {
+  // router
   const history = useHistory();
   return (
+    // jsx
     <div className="container-main">
       <button
         type="button"
@@ -12,8 +14,8 @@ const About = () => {
         style={{
           width: "150px",
           borderRadius: "25px",
-          marginLeft: "80%",
-          marginTop: "5px",
+          marginLeft: "89%",
+          marginTop: "15px",
         }}
         onClick={() => history.goBack()}
       >

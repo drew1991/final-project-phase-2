@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "@fontsource/montez";
-import "../images/avatar.png";
 import Clock from "../Clock";
 
 const Navbar = () => {
@@ -9,10 +8,11 @@ const Navbar = () => {
     <nav
       className="navbar navbar-expand-lg"
       style={{
+        marginTop: "10px",
         backgroundImage: "radial-gradient(circle, #5c0067 0%, #00d4ff 100%)",
-        height: "auto",
-        borderBottomLeftRadius: "50px",
-        borderBottomRightRadius: "50px",
+        height: "40px",
+        borderBottomLeftRadius: "25px",
+        borderBottomRightRadius: "25px",
       }}
     >
       <div className="container">
@@ -22,7 +22,8 @@ const Navbar = () => {
           style={{
             fontFamily: '"montez","cursive"',
             color: "white",
-            fontSize: 80,
+            marginTop: "50px",
+            fontSize: 40,
           }}
         >
           <span>
@@ -66,7 +67,7 @@ const Navbar = () => {
                 to="/about"
                 style={{
                   color: "white",
-                  fontSize: "50px",
+                  fontSize: "65px",
                   margin: "40px",
                   textShadow: "2px 2px 4px #000000",
                 }}
@@ -81,7 +82,7 @@ const Navbar = () => {
                 to="/contact"
                 style={{
                   color: "white",
-                  fontSize: "30px",
+                  fontSize: "65px",
                   margin: "40px",
                   textShadow: "2px 2px 4px #000000",
                 }}
@@ -89,6 +90,7 @@ const Navbar = () => {
                 Contact
               </NavLink>
             </li>
+            <li></li>
           </ul>
         </div>
         {/* <Link className="btn btn-outline-light" to="/users/add">
