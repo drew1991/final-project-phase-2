@@ -1,9 +1,9 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Footer from "../layout/footer";
 
 const Contact = () => {
-  const history = useHistory();
+  const navigate = useNavigate();
 
   return (
     <div className="container-contact">

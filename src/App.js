@@ -17,7 +17,7 @@ function App(props) {
     <Router>
       <Navbar />
 
-      <Switch>
+      <Routes>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
@@ -25,7 +25,7 @@ function App(props) {
         <Route exact path="/users/edit/:id" component={EditUser} />
         <Route exact path="/users/:id" component={User} />
         <Route component={NotFound} />
-      </Switch>
+      </Routes>
     </Router>
   );
 }
