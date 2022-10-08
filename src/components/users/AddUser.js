@@ -20,7 +20,7 @@ const AddUser = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     await axios.post("http://localhost:3000/users", user);
-    history.push("/");
+    this.context.history.push("/path");
   };
   return (
     <div className="container">
