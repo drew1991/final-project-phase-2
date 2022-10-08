@@ -1,17 +1,16 @@
 {
-  "files": {
-    "main.css": "/final-project-phase-2%20/static/css/main.a6d45be4.css",
-    "main.js": "/final-project-phase-2%20/static/js/main.d54cd4e4.js",
-    "static/media/2.jpg": "/final-project-phase-2%20/static/media/2.1cd3802ae5e7cc52e2d8.jpg",
-    "static/media/bg.jpg": "/final-project-phase-2%20/static/media/bg.a5651a5e89d34b9e4998.jpg",
-    "static/media/montez-all-400-normal.woff": "/final-project-phase-2%20/static/media/montez-all-400-normal.79b5dfe53039dd35baa7.woff",
-    "static/media/montez-latin-400-normal.woff2": "/final-project-phase-2%20/static/media/montez-latin-400-normal.e3ec19d3e32d3976b075.woff2",
-    "index.html": "/final-project-phase-2%20/index.html",
-    "main.a6d45be4.css.map": "/final-project-phase-2%20/static/css/main.a6d45be4.css.map",
-    "main.d54cd4e4.js.map": "/final-project-phase-2%20/static/js/main.d54cd4e4.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.a6d45be4.css",
-    "static/js/main.d54cd4e4.js"
-  ]
+  "main.css": "/final-project-phase-2/static/css/main.d420c7c8.chunk.css",
+  "main.js": "/final-project-phase-2/static/js/main.4713d0ee.chunk.js",
+  "main.js.map": "/final-project-phase-2/static/js/main.4713d0ee.chunk.js.map",
+  "static/css/1.42ed92a0.chunk.css": "/final-project-phase-2/static/css/1.42ed92a0.chunk.css",
+  "static/js/1.b01aff76.chunk.js": "/final-project-phase-2/static/js/1.b01aff76.chunk.js",
+  "static/js/1.b01aff76.chunk.js.map": "/final-project-phase-2/static/js/1.b01aff76.chunk.js.map",
+  "runtime~main.js": "/final-project-phase-2/static/js/runtime~main.cc273a5b.js",
+  "runtime~main.js.map": "/final-project-phase-2/static/js/runtime~main.cc273a5b.js.map",
+  "static/media/index.css": "/final-project-phase-2/static/media/montez-all-400-normal.8eae0f19.woff",
+  "static/css/main.d420c7c8.chunk.css.map": "/final-project-phase-2/static/css/main.d420c7c8.chunk.css.map",
+  "static/css/1.42ed92a0.chunk.css.map": "/final-project-phase-2/static/css/1.42ed92a0.chunk.css.map",
+  "index.html": "/final-project-phase-2/index.html",
+  "precache-manifest.e3076995118ad63068a3b28b842760d1.js": "/final-project-phase-2/precache-manifest.e3076995118ad63068a3b28b842760d1.js",
+  "service-worker.js": "/final-project-phase-2/service-worker.js"
 }
