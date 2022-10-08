@@ -67,7 +67,7 @@ const Contact = () => {
             marginLeft: "80%",
             marginTop: "5px",
           }}
-          onClick={() => history.goBack()}
+          onClick={() => navigate("/home")}
         >
           Go Back
         </button>

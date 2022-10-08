@@ -5,8 +5,7 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Navbar from "./components/layout/Navbar";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import NotFound from "./components/pages/NotFound";
+import { Routes, Route } from "react-router";
 import AddUser from "./components/users/AddUser";
 import EditUser from "./components/users/EditUser";
 import User from "./components/users/User";
@@ -14,7 +13,7 @@ import User from "./components/users/User";
 function App(props) {
   const [currentPage, setCurrentPage] = useState(1);
   return (
-    <Router>
+    <Routes>
       <Navbar />
 
       <Routes>
@@ -24,9 +23,8 @@ function App(props) {
         <Route exact path="/users/add" component={AddUser} />
         <Route exact path="/users/edit/:id" component={EditUser} />
         <Route exact path="/users/:id" component={User} />
-        <Route component={NotFound} />
       </Routes>
-    </Router>
+    </Routes>
   );
 }
 
