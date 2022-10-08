@@ -1,9 +1,9 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import Footer from "../layout/footer";
 
 const Contact = () => {
-  const navigate = useNavigate();
+  const history = useHistory();
 
   return (
     <div className="container-contact">
@@ -67,7 +67,7 @@ const Contact = () => {
             marginLeft: "80%",
             marginTop: "5px",
           }}
-          onClick={() => navigate("/home")}
+          onClick={() => history.goBack()}
         >
           Go Back
         </button>
