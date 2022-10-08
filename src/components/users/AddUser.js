@@ -32,7 +32,7 @@ const AddUser = () => {
           borderRadius: "25px",
           marginLeft: "75%",
         }}
-        onClick={() => history.goBack()}
+        onClick={() => navigate("/home")}
       >
         Go Back
       </button>
