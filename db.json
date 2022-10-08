@@ -4,7 +4,7 @@
       "id": 2,
       "name": "Andrew onyancha",
       "username": "Andy91",
-      "image": "/images/download.jpeg",
+      "phone": "010-692-6593 x09125",
       "email": "andrew.onyancha@moringascgool.com",
       "address": {
         "street": "Victor Plains",
@@ -16,7 +16,6 @@
           "lng": "-34.4618"
         }
       },
-      "phone": "010-692-6593 x09125",
       "website": "anastasia.net",
       "company": {
         "name": "Deckow-Crist",
@@ -28,7 +27,7 @@
       "id": 3,
       "name": "Ace and King.",
       "username": "Samantha",
-      "image": "/images/download.jpeg",
+      "phone": "1-463-123-4447",
       "email": "Nathan@yesenia.net",
       "address": {
         "street": "Douglas Extension",
@@ -40,7 +39,6 @@
           "lng": "-47.0653"
         }
       },
-      "phone": "1-463-123-4447",
       "website": "ramiro.info",
       "company": {
         "name": "Romaguera-Jacobson",
@@ -53,7 +51,7 @@
       "name": "Salt and Pepper",
       "username": "Karianne",
       "email": "Julianne.OConner@kory.org",
-      "image": "/images/download.jpeg",
+      "phone": "493-170-9623 x156",
       "address": {
         "street": "Hoeger Mall",
         "suite": "Apt. 692",
@@ -64,7 +62,6 @@
           "lng": "-164.2990"
         }
       },
-      "phone": "493-170-9623 x156",
       "website": "kale.biz",
       "company": {
         "name": "Robel-Corkery",
@@ -77,7 +74,7 @@
       "name": "Hammer and Nail.",
       "username": "Kamren",
       "email": "Lucio_Hettinger@annie.ca",
-      "image": "/images/download.jpeg",
+      "phone": "(254)954-1289",
       "address": {
         "street": "Skiles Walks",
         "suite": "Suite 351",
@@ -88,7 +85,6 @@
           "lng": "62.5342"
         }
       },
-      "phone": "(254)954-1289",
       "website": "demarco.info",
       "company": {
         "name": "Keebler LLC",
@@ -101,7 +97,7 @@
       "name": "Jump and Thump",
       "username": "Leopoldo_Corkery",
       "email": "Karley_Dach@jasper.info",
-      "image": "/images/download.jpeg",
+      "phone": "+254-6430815" ,
       "address": {
         "street": "Norberto Crossing",
         "suite": "Apt. 950",
@@ -112,7 +108,6 @@
           "lng": "71.7478"
         }
       },
-      "phone": "1-477-935-8478 x6430",
       "website": "ola.org",
       "company": {
         "name": "Considine-Lockman",

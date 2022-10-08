@@ -66,6 +66,7 @@ const Home = () => {
               <th scope="col">Name</th>
               <th scope="col">User Name</th>
               <th scope="col">Email</th>
+              <th scope="col">Phone</th>
 
               <th>Action</th>
             </tr>
@@ -77,6 +78,7 @@ const Home = () => {
                 <td>{user.name}</td>
                 <td>{user.username}</td>
                 <td>{user.email}</td>
+                <td>{user.phone}</td>
 
                 <td>
                   <Link class="btn btn-primary mr-2" to={`/users/${user.id}`}>
