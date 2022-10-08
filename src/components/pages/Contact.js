@@ -8,7 +8,15 @@ const Contact = () => {
   return (
     <div className="container-contact">
       <div className="my-contact">
-        <h1 style={{ fontFamily: '"montez","cursive"', color: "white" }}>
+        <h1
+          style={{
+            fontFamily: '"montez","cursive"',
+            color: "white",
+            marginTop: "30px",
+            background:
+              "linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);",
+          }}
+        >
           Contact Page
         </h1>
 
@@ -67,6 +75,8 @@ const Contact = () => {
             borderRadius: "25px",
             marginLeft: "80%",
             marginTop: "5px",
+            background:
+              "linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);",
           }}
           onClick={() => history.goBack()}
         >

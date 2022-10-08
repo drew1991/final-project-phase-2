@@ -110,7 +110,7 @@
 .container-contact{
   background-size: auto;
   justify-content: center;
-  color: red;
+  color:linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);;
 background-image: url("bg.jpg");
 }
 
@@ -118,10 +118,10 @@ background-image: url("bg.jpg");
 width: 50%;
   float: left;
   padding: 20px;
-  border: 2px solid red;
+  border: 2px solid white;
   background-color: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
-  /* background-image: url("bg.jpg"); */
-  border: none;
+  background-image: url("bg.jpg");
+  /* border: none; */
   height: 500px;
 }
 .nav-link:hover{
