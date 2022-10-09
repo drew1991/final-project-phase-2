@@ -1,0 +1,56 @@
+{
+  "name": "users",
+  "version": "0.1.0",
+  "homepage": "https://drew1991.github.io/final-project-phase-2 ",
+  "private": true,
+  "dependencies": {
+    "@emotion/styled": "^11.10.4",
+    "@fontsource/montez": "^4.5.10",
+    "@mui/material": "^5.10.8",
+    "@mui/styled-engine-sc": "^5.10.6",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^1.1.2",
+    "bootstrap": "4.4.1",
+    "classnames": "^2.3.2",
+    "concurrently": "5.1.0",
+    "json-server": "^0.17.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "^2.1.3",
+    "react-search-box": "^2.3.0",
+    "styled-components": "^5.3.6",
+    "use-local-storage": "^2.3.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy" : "npm run build",
+"deploy" : "gh-pages -d build",
+    "json-server": "json-server --watch db.json --port 3003",
+    "start:dev": "concurrently \"npm start\" \"npm run json-server\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
