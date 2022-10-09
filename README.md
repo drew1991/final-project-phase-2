@@ -1,3 +1,16 @@
+# Program name
+
+Employee list
+
+# Author name
+
+Andrew Onyancha
+
+# description of the project
+
+Employee list is a simple React application that enables a user to add, edit and delete employee records
+all the pages have a back button for basic routing and the web application also displays the time
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +81,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # final-project-phase-2
