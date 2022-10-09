@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4713d0eef67e5b00e5ab",
-    "url": "/final-project-phase-2/static/css/main.d420c7c8.chunk.css"
+    "revision": "dca0a24b69d9ba842571",
+    "url": "/final-project-phase-2/static/css/main.6798677f.chunk.css"
   },
   {
-    "revision": "4713d0eef67e5b00e5ab",
-    "url": "/final-project-phase-2/static/js/main.4713d0ee.chunk.js"
+    "revision": "dca0a24b69d9ba842571",
+    "url": "/final-project-phase-2/static/js/main.dca0a24b.chunk.js"
   },
   {
     "revision": "b01aff764c6adae9a6a7",
@@ -28,15 +28,15 @@ self.__precacheManifest = [
     "url": "/final-project-phase-2/static/media/2.e16c4103.jpg"
   },
   {
-    "revision": "f34d8e0806711be81df33e4af89b6003",
-    "url": "/final-project-phase-2/static/media/montez-latin-400-normal.f34d8e08.woff2"
-  },
-  {
     "revision": "8eae0f196d0eed87cd310d5a511b3696",
     "url": "/final-project-phase-2/static/media/montez-all-400-normal.8eae0f19.woff"
   },
   {
-    "revision": "6ca20f7a3819f6617dd293b3ba72fc25",
+    "revision": "f34d8e0806711be81df33e4af89b6003",
+    "url": "/final-project-phase-2/static/media/montez-latin-400-normal.f34d8e08.woff2"
+  },
+  {
+    "revision": "90a2bbc2b154c789bf03cb51b98d4f0b",
     "url": "/final-project-phase-2/index.html"
   }
 ];
